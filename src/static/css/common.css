@@ -1,0 +1,7 @@
+@import "~antd/dist/antd.css";
+.title{
+    font-size: 30px;
+    color:black;
+    font-weight: bold;
+    text-align: center;
+}

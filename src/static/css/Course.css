@@ -1,0 +1,185 @@
+:root {
+  /*  --header-color: #f44336;
+    --left-color:#f44336;
+    --right-color:#6ec071;
+    --main-blue:#00A4FF;
+    --main-font:black;
+    */
+    --header-color: #006341;
+    --left-color:brown;
+    --right-color:#00BF9F;
+    --main-blue:#00A4FF;
+    --main-font:#006fbf;
+}
+.ant-layout-header{
+    background-color: var(--header-color);
+}
+
+.site-layout-content {
+    background: #fff;
+    padding: 12px;
+    min-height: 280px;
+}
+
+#components-layout-demo-top .logo {
+    width: 120px;
+    height: 31px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px 24px 16px 0;
+    float: left;
+}
+
+.ContentBox{
+    padding: 0 40px;
+
+}
+
+.ant-carousel .slick-slide {
+    height:70vh;
+    overflow: hidden;
+}
+.slideBox{
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+img {
+    display:block;
+    width: 95%;
+    left:50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+.slideBox div{
+
+
+}
+
+.playBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.slide-left{
+    font-size:70px;
+    padding: 10px 100px;
+    color: var(--left-color);
+
+}
+.slide-right{
+    font-size:70px;
+    padding: 10px 100px;
+    color: var(--right-color);
+}
+
+.dialogue{
+    color: var(--main-font);
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    font-family: inherit;
+    font-size: 30px;
+    width: 300px;
+}
+.dialogue p{
+
+    line-height: 100%;
+    text-align: center;
+    margin: 0 0 .5rem .5rem;
+}
+.dialogue input{
+
+    width: 200px;
+    line-height: 100%;
+    height:30px;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 15px;
+}
+.levelBox{
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 20%;
+    z-index: 100;
+    top: 10rem;
+    right: 20px;
+}
+.levelBox div{
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 1px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.levelBox div:hover{
+    background-color: var(--right-color);
+    cursor:pointer;
+}
+
+.dialogue p.midText{
+    height: 20px;
+    font-size: 25px;
+    text-align: center;
+    margin: 0 0 5px 10px;
+}
+.dialogue p.smallText{
+    height: 20px;
+    font-size: 15px;
+    text-align: center;
+    margin: 0 0 5px 5px;
+}
+.rangebox{
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto;
+    width: 200px;
+    z-index: 110;
+    top: 300px;
+    right: 300px;
+    font-size: 30px;
+    background-color: gold;
+}
+
+p.active{
+    color: var(--right-color);
+}
+
+.book-rate {
+    position:absolute;
+    right: 20vw;
+    top:80vh;
+    width:200px;
+}
+
+.play-range {
+    color: var(--main-blue);
+    font-weight: bold;
+    font-size: 20px;
+}
+.book-rate input {
+    width:200px;
+}
+
+@media  screen and (max-width: 1366px) and (orientation: landscape) and (min-width: 1000px) {
+    .ContentBox{
+        padding: 5px;
+    }
+    img{
+        width: auto;
+    }
+    .book-rate {
+        position:absolute;
+        right: 10vw;
+        top:84vh;
+        width:100px;
+    }
+    .book-rate input {
+        width:100px;
+    }
+}

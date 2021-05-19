@@ -1,0 +1,56 @@
+.ant-collapse > .ant-collapse-item.MAGENTA>.ant-collapse-header {
+    font-weight: bold;
+    color: darkmagenta;
+}
+.ant-collapse > .ant-collapse-item.ROUGE>.ant-collapse-header {
+    font-weight: bold;
+    color: red;
+}
+.ant-collapse > .ant-collapse-item.JAUNE>.ant-collapse-header {
+    font-weight: bold;
+    color: darkgoldenrod;
+}
+.ant-collapse > .ant-collapse-item.BLEU>.ant-collapse-header {
+    font-weight: bold;
+    color: blue;
+}
+.ant-collapse > .ant-collapse-item.VERT>.ant-collapse-header {
+    font-weight: bold;
+    color: #6ec071;
+}
+.ant-collapse > .ant-collapse-item.ORANGE>.ant-collapse-header {
+    font-weight: bold;
+    color: darkorange;
+}
+.ant-collapse > .ant-collapse-item.VIOLET>.ant-collapse-header {
+    font-weight: bold;
+    color: blueviolet;
+}
+.ant-collapse > .ant-collapse-item.ORANGE>.ant-collapse-header {
+    font-weight: bold;
+    color: cornflowerblue;
+}
+.ant-collapse > .ant-collapse-item.OR>.ant-collapse-header {
+    font-weight: bold;
+    color: darkgoldenrod;
+}
+.ant-collapse > .ant-collapse-item.ARGENT>.ant-collapse-header {
+     font-weight: bold;
+     color: silver;
+ }
+.ant-collapse > .ant-collapse-item.RUBIS>.ant-collapse-header {
+     font-weight: bold;
+     color:mediumvioletred;
+ }
+.ant-collapse > .ant-collapse-item.SAPHIR>.ant-collapse-header {
+    font-weight: bold;
+    color: mediumpurple;
+}
+.bookbtn{
+    font-weight: bold;
+    color: darkblue;
+}
+.bookbtn:hover{
+    background-color: lightblue;
+    cursor:pointer;
+}
